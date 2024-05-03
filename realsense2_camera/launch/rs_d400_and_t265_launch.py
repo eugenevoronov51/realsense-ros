@@ -50,6 +50,7 @@ local_parameters = [{'name': 'camera_name1',            'default': 'D435i', 'des
                     #{'name': 'tf_publish_rate',         'default': '0.0', 'description': 'Rate of publishing static_tf'},
                     #{'name': 'publish_tf',              'default': 'false', 'description': 'Enable/disable publishing static and dynamic TFs'},
                    ]
+                   
 
 def generate_launch_description():
     return LaunchDescription(
