@@ -22,15 +22,15 @@ import pathlib
 sys.path.append(str(pathlib.Path(__file__).parent.absolute()))
 import rs_launch
 
-local_parameters = [{'name': 'camera_name1',            'default': 'D435i', 'description': 'camera unique name'},
-                    {'name': 'device_type1',            'default': 'd4.', 'description': 'choose device by type'},
+local_parameters = [{'name': 'camera_name1',            'default': 'L515', 'description': 'camera unique name'},
+                    {'name': 'device_type1',            'default': 'l5.', 'description': 'choose device by type'},
                     {'name': 'enable_pointcloud1',      'default': 'true', 'description': 'enable pointcloud'},
                     {'name': 'enable_gyro1',            'default': 'true', 'description': ''},                           
                     {'name': 'enable_accel1',           'default': 'true', 'description': ''}, 
                     {'name': 'depth_fps1',              'default': '6.0', 'description': ''},   
                     {'name': 'color_fps1',              'default': '6.0', 'description': ''},                           
                     {'name': 'gyro_fps1',               'default': '200.0', 'description': ''},                           
-                    {'name': 'accel_fps1',              'default': '63.0', 'description': ''},    
+                    {'name': 'accel_fps1',              'default': '100.0', 'description': ''},    
                     {'name': 'depth_width1',            'default': '640', 'description': 'depth image width'},                           
                     {'name': 'depth_height1',           'default': '480', 'description': 'depth image height'},                           
                     {'name': 'enable_depth1',           'default': 'true', 'description': 'enable depth stream'},
